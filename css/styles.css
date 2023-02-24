@@ -8,10 +8,18 @@ background-color:#EAF6F6;
 p{
     line-height: 2;
 }
+.profile{
+border-radius: 100px
+}
+.mountain{
+  width: auto;
+
+}
 
 .top{
   position: relative;
   padding-top:100px;
+  text-align:  center;
 }
 .middle{
 margin: 100px 0;
@@ -74,8 +82,8 @@ a:hover{
 }
 .top-cloud{
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 250px;
+  top: -50px;
 }
 
 .bottom-cloud{
