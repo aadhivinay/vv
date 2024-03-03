@@ -8,9 +8,14 @@ background-color:#EAF6F6;
 p{
     line-height: 2;
 }
-.profile{
-border-radius: 100px
-}
+.profile {
+     width: 150px; /* Adjust the size as needed */
+     height: 150px; /* Adjust the size as needed */
+     border-radius: 50%; /* Creates a circular shape */
+     object-fit: cover; /* Ensures the image covers the entire container */
+     border: 2px solid #fff; /* Optional: Add a border for a nice touch */
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+   }
 .mountain{
   width: auto;
 
