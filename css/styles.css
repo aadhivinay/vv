@@ -8,14 +8,15 @@ background-color:#EAF6F6;
 p{
     line-height: 2;
 }
-.profile {
-     width: 150px; /* Adjust the size as needed */
-     height: 150px; /* Adjust the size as needed */
-     border-radius: 50%; /* Creates a circular shape */
-     object-fit: cover; /* Ensures the image covers the entire container */
-     border: 2px solid #fff; /* Optional: Add a border for a nice touch */
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-   }
+/* Adding space between words in CSS */
+.marquee-text {
+  word-spacing: 15px; /* Adjust the value as needed */
+}
+
+.profile{
+border-radius: 50%;
+border-color:inherit;
+}
 .mountain{
   width: auto;
 
@@ -48,6 +49,7 @@ h2{
   color: #66BFBF;
   font-family: 'Merriweather',serif;
   padding-bottom: 10px;
+    word-spacing: 15px; 
 }
 h3{
   color: #66BFBF;
