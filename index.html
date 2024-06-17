@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>AADHI VINAY</title>
@@ -15,8 +14,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
 </head>
@@ -26,7 +23,7 @@
   <!-- Navigation Bar -->
   <nav class="navbar">
     <div class="container">
-      <div class="brand">VINAY</div>
+      <div class="brand"> <a href="https://www.linkedin.com/in/aadhi-vinay-063251234/">AADHI VINAY</a></div>
       <ul class="nav-list">
         <li><a href="#home">Home</a></li>
         <li><a href="https://aadhivinay.github.io./av/">About</a></li>
@@ -38,9 +35,6 @@
 
   <!-- Desktop View -->
   <div class="container_fluid col-lg-6 col-md-8 col-sm-12 desktop-view" id="home">
-
-
-
     <div class="top">
       <div class="col-lg-6 col-md-8 col-sm-12">
         <h1>I'm Vinay</h1>
@@ -89,72 +83,70 @@
             <p><strong>4.Version Control: </strong> Proficient in using Git for version control, I am adept at collaborating with team members and managing code repositories. This ensures a seamless and organized workflow, fostering efficient collaboration in development projects.</p>
           </p>
         </div>
-
-
       </div>
       <hr><br>
     </div>
-    <h2>Web projects</h2><br><br>
-    <div class="card-container1"> 
-     <div class="card">       
-      <div class="card-header">
-         <h2>Tindog </h2> 
+    <!-- Web Projects -->
+  <h2>Web Projects</h2><br>
+  <div class="card-carousel">
+    <div class="card-container card-container1">
+      <div class="card tindog-bg">
+        <div class="card-header">
+          <h2><a href="https://aadhivinay.github.io./bv/">Tindog</a></h2>
+        </div>
       </div>
-      <div class="card-content">
-          <p>Tindog is a website where we can merchandise the pets .</p>
+      <div class="card apple-clone-bg">
+        <div class="card-header">
+          <h2><a href="https://aadhivinay.github.io./iv/">Apple Clone</a></h2>
+        </div>
       </div>
-     </div>
-    
-     <div class="card">
-      <div class="card-header">
-          <h2>Apple Clone</h2>
+      <div class="card quiz-bg">
+        <div class="card-header">
+          <h2><a href="#">Quiz App</a></h2>
+        </div>
       </div>
-      <div class="card-content">
-          <p>This project  is a clone of the original website of Apple,It is just a interface.</p>
+      <div class="card portfolio-bg">
+        <div class="card-header">
+          <h2><a href="https://aadhivinay.github.io./vv/">Personal Portfolio</a></h2>
+        </div>
       </div>
-     </div>
     </div>
-     <h2>DataScience Projects</h2><br><br>
-
-    <div class="card-container2">
-
-     <div class="card">
-      <div class="card-header">
-          <h2>Spam Filter</h2>
-      </div>
-      <div class="card-content">
-          <p>spam filter is an application which sorts the  emails which are detected as spam .</p>
-      </div>
-     </div>    
-    
-     <div class="card">
-      <div class="card-header">
-          <h2>PowerTransaction Analysis</h2>
-      </div>
-      <div class="card-content">
-          <p>This project is a analysis of power consumption  by a state and overall insigts in the given period .</p>
-      </div>
-     </div>
-    </div>
+    <button class="carousel-control prev prev1" onclick="moveCarousel(-1, 'card-container1')">❮</button>
+    <button class="carousel-control next next1" onclick="moveCarousel(1, 'card-container1')">❯</button>
   </div>
-    
+
+  <!-- Data Science Projects -->
+  <h2>Data Science Projects</h2><br>
+  <div class="card-carousel">
+    <div class="card-container card-container2">
+      <div class="card spam-filter-bg">
+        <div class="card-header">
+          <h2><a href="https://www.kaggle.com/code/aadhivinay/build-spam-filter-identify-spam-e-mails">Spam Filter</a></h2>
+        </div>
+      </div>
+      <div class="card power-analysis-bg">
+        <div class="card-header">
+          <h2><a href="https://www.kaggle.com/code/aadhivinay/power-consumption-data-analysis">Power Transaction Analysis</a></h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control prev prev2" onclick="moveCarousel(-1, 'card-container2')">❮</button>
+    <button class="carousel-control next next2" onclick="moveCarousel(1, 'card-container2')">❯</button>
+  </div>
 
     <div class="bottom"><br><br>
       <a class="footer-link" href="https://www.linkedin.com/in/aadhi-vinay-063251234/">LinkedIn</a>
       <a class="footer-link" href="https://www.facebook.com/aadi.vinaykurma/">Facebook</a>
       <a class="footer-link" href="">Website</a>
-      <p class="para">© 2022 Aadhi Vinay.</p>
+      <p class="para">© 2022 Aadhi Vinay</p>
     </div>
-   </div>
   </div>
 
   <!-- Mobile View -->
   <div class="container_fluid col-lg-6 col-md-8 col-sm-12 mobile-view" id="home-mobile">
-
     <!-- You can rearrange the elements for the mobile view as needed -->
-
   </div>
 
-
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 
-  
+
   p {
     line-height: 2;
   }
-  
+
 /* Add this CSS to your existing styles */
 
 
@@ -11,10 +11,10 @@ body {
     color: #40514E;
     text-align: center;
     background-color: #EAF6F6;
-    margin: 0;
+    margin:8px;
     font-family: 'Roboto', sans-serif;
   }
-  
+
   .navbar {
     background-color: #40514E;
     color: #FFF;
@@ -24,48 +24,49 @@ body {
     top: 0;
     z-index: 1000;
   }
-  
+
   .container {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .brand {
-    margin-left: 50px;
-    color: skyblue; /* Lite Yellow Color */
+    margin-left: 5px;
+    margin-top: 20px;
+    color:#E0FBE2;
   }
-  
+
   .nav-list {
     list-style-type: none;
     display: flex;
     margin-right: 50px;
   }
-  
+
   .nav-list li {
     margin-left: 20px;
   }
-  
+
   .nav-list a {
     color: #B0B0B0; /* Ash Color */
     text-decoration: none;
   }
-  
+
   .nav-list a:hover {
     color: #FFF; /* White Color on Hover */
   }
-  
-  
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 767px) {
     .container_fluid {
       width: 100%;
     }
-   
-  
+
+
     .top {
       padding-top: 50px;
     }
-  
+
     .vinay1,
   .vinay2 {
     width: 25%;
@@ -73,50 +74,51 @@ body {
     margin-left: 30px;
     float: left;
   }
-  
+
     .contact-me {
       text-align: center;
-      
+
     }
     .contact-me a:hover{
       color:skyblue;
     }
-  
+
     .contact-link {
       margin-left: 0;
     }
+
 }
-  
+
   .profile {
     border-radius: 50%;
     border-color: inherit;
   }
-  
+
   .mountain {
     width: auto;
   }
-  
+
   .top {
     position: relative;
     padding-top: 100px;
     text-align: center;
   }
-  
+
   .middle {
     margin: 50px 0; /* Adjust margin for better mobile view */
   }
-  
+
   .bottom {
-    background-color: #40514E;
+    background-color: #6B8A7A;
   }
-  
+
   h1 {
     font-size: 5em;
     margin-top: 0;
     color: #66BFBF;
     font-family: 'Sacramento', serif;
   }
-  
+
   h2 {
     font-size: 20px;
     margin: 50px auto 0 auto;
@@ -125,12 +127,12 @@ body {
     padding-bottom: 10px;
     word-spacing: 15px;
   }
-  
+
   h3 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
   }
-  
+
   hr {
     width: 4%;
     margin: 50px auto;
@@ -139,13 +141,13 @@ body {
     border-color: grey;
     border-width: 6px;
   }
-  
+
   .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
   }
-  
+
   .vinay1,
   .vinay2 {
     width: 25%;
@@ -171,17 +173,17 @@ body {
     margin-left: 30px;
     float: right;
   }
-  
+
   a {
     color: #66BFBF;
     margin-left: 50px;
     text-decoration: none;
   }
-  
+
   a:hover {
     color: #EAF6F6;
   }
-  
+
   .top-cloud,
   .bottom-cloud {
     display: none; /* Hide clouds in mobile view */
@@ -194,7 +196,7 @@ body {
     justify-content: space-between;
     gap: 20px; /* Adjust the gap between cards as needed */
     margin: 20px;
-    
+
 }
 .card-container2 {
   display: flex;
@@ -223,18 +225,18 @@ body {
     padding: 20px;
 }
 
-  
-  @media only screen and (min-width: 768px) {
+
+  @media only screen and (min-width: 767px) {
     /* Apply styles only for screens wider than 768px (tablets and desktops) */
-  
+
     .middle {
       margin: 100px 0; /* Reset margin for larger screens */
     }
-  
+
 
      .contact-me {
       text-align: center;
-      
+
     }
     .contact-me a:hover{
       color:skyblue;
@@ -246,8 +248,8 @@ body {
       margin-right: 30px;
       float: left;
     }
-  
-  
+
+
     .vinay2 {
       margin-left: 30px;
       float: right;
@@ -260,30 +262,14 @@ body {
       margin-left: 30px;
       float: right;
     }
-  
-  
-    .top-cloud,
-    .bottom-cloud {
-      display: block; /* Show clouds for larger screens */
-      position: absolute;
-      top: -50px;
-    }
-  
-    .top-cloud {
-      right: 250px;
-    }
-  
-    .bottom-cloud {
-      left: 250px;
-      bottom: 300px;
-    }
     .para{
       color: black;
+
     }
     .card-container1 {
       display: flex;
       justify-content: space-between;
-      gap: 250px; /* Adjust the gap between cards as needed */
+      gap: 150px; /* Adjust the gap between cards as needed */
       margin: 150px;
       height: 300px;
       width: 800px;
@@ -291,7 +277,7 @@ body {
     .card-container2 {
       display: flex;
       justify-content: space-between;
-      gap: 250px; /* Adjust the gap between cards as needed */
+      gap: 150px; /* Adjust the gap between cards as needed */
       margin: 150px;
       height: 300px;
       width: 800px;
@@ -299,26 +285,218 @@ body {
 
   /* Styling for the card */
   .card {
-      flex: 0 0 48%; /* Adjust the width of the cards as needed */
-      border: 1px solid #ccc;
-      border-radius: 8px;
+  position: relative;
+  color: white; /* Ensure text is readable */
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  /* padding: 10px; */
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+
+.card-content {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  border-radius: 0 0 8px 8px;
+}
+
+.tindog-bg {
+  background-image: url('images/tindog-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple-clone-bg {
+  background-image: url('images/apple-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spam-filter-bg {
+  background-image: url('images/spamfilter-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.power-analysis-bg {
+  background-image: url('images/power-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.quiz-bg{
+  background-image: url('images/quiz-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.portfolio-bg{
+  background-image: url('images/portfolio-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-carousel {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .card-container1, .card-container2 {
+   display: flex;
+   transition: transform 0.5s ease;
+ }
+
+ .card {
+   background-color: #FFF;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   margin: 0 10px;
+   padding: 0px;
+   width: 150px;
+   height: 250px;
+   text-align: center;
+   position: relative;
+   color: white; /* Ensure text is readable */
+   border-radius: 8px;
+   overflow: hidden;
+ }
+
+ .carousel-control {
+   background-color: rgba(0, 0, 0, 0.5);
+   border: none;
+   color: #FFF;
+   font-size: 2rem;
+   padding: 10px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   z-index: 1;
+ }
+
+ .carousel-control.prev {
+   left: 10px;
+ }
+
+ .carousel-control.next {
+   right: 10px;
+ }
+}
+ /* Media queries for mobile responsiveness */
+ @media only screen and (max-width: 767px) {
+   .card-container1,.card-container2 {
+     flex-wrap: nowrap;
+      transition: transform 0.5s ease;
+     overflow-x: auto;
+     scroll-snap-type: x mandatory;
+     -webkit-overflow-scrolling: touch;
+
+
+   }
+   .card {
+     background-color: #FFF;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     margin: 0 10px;
+     padding: 0px;
+     width: 150px;
+     height: 250px;
+     text-align: center;
+     position: relative;
+     color: white; /* Ensure text is readable */
+     border-radius: 8px;
+     overflow: hidden;
+     scroll-snap-align: start;
+   }
+
+   .card-header {
+     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+     /* padding: 10px; */
+     border-radius: 8px 8px 0 0;
+   }
+
+   .card-content {
+     padding: 10px;
+     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+     border-radius: 0 0 8px 8px;
+   }
+
+   .tindog-bg {
+     background-image: url('images/tindog-bg.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+   .apple-clone-bg {
+     background-image: url('images/apple-bg.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+   .spam-filter-bg {
+     background-image: url('images/spamfilter-bg.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+
+   .power-analysis-bg {
+     background-image: url('images/power-bg.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .quiz-bg{
+     background-image: url('images/quiz-bg.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .portfolio-bg{
+     background-image: url('images/portfolio-bg.jpeg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .card-carousel {
+      position: relative;
       overflow: hidden;
-  }
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       margin-bottom: 10px;
+    }
+    .carousel-control.prev {
+      left: 10px;
+    }
 
-  /* Styling for the card header */
-  .card-header {
-      background-color: #f1f1f1;
+    .carousel-control.next {
+      right: 10px;
+    }
+    .carousel-control {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: #FFF;
+      font-size: 2rem;
       padding: 10px;
-      text-align: center;
-  }
-
-  /* Styling for the card content */
-  .card-content {
-      padding: 20px;
-  }
-  }
-  
-
-
-
- 
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      z-index: 1;
+      display: none; /* Hide controls on mobile (optional) */
+    }
+ }
