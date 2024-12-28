@@ -101,33 +101,6 @@ button{
  
 }
 
-@keyframes dropDown {
-  0% {
-    top: -100px;
-    opacity: 14;
-  }
-  100% {
-    top: 30%;
-    opacity: 14;
-  }
-}
-
-.close-button {
-  margin-top: 10px;
-  padding: 5px 10px;
-  background-color:#ccc6c6;
-  border:rgb(17, 16, 16);
-  cursor: pointer;
-}
-.bottom p {
- padding: 4px;
- margin-top: 4px;
- margin-bottom: 4px;
-}
-.bottom a{
-  margin-right: 10px;
-  
-}
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
