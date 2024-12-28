@@ -23,19 +23,4 @@ function moveCarousel(direction, carouselClass) {
 
   cardContainer.dataset.currentSlide = currentSlide;
 }
-// Function to show the greeting pop-up
-function showGreetingPopup() {
-  const popup = document.createElement('div');
-  popup.classList.add('popup');
-  popup.innerHTML = `
-    <p>Hey ✌️ Welcome To My Page .. </p>
-    <button class="close-button">Close</button>
-  `;
-  document.body.appendChild(popup);
-  const closeButton = popup.querySelector('.close-button');
-  closeButton.addEventListener('click', () => {
-    popup.style.display = 'none';
-  });
-}
 
-window.addEventListener('load', showGreetingPopup);
